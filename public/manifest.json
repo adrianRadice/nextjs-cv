@@ -1,0 +1,21 @@
+{
+  "short_name": "Portfolio",
+  "name": "Radice Adrian Portfolio",
+  "description": "A passionate Full Stack Web Developer, Mobile and Serverless App Developer.",
+  "icons": [
+    {
+      "src": "./favicon.ico",
+      "type": "image/ico",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./favicon.ico",
+      "type": "image/ico",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#11cdef",
+  "background_color": "#11cdef"
+}
