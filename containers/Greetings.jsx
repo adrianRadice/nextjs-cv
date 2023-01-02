@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import { greetings } from "../constants/portfolio-info";
 
@@ -88,7 +89,9 @@ const Greetings = () => {
             </div>
           </Container>
           <div class="scroll-indicator">
-            <div>Scroll down</div>
+            <Link href="#skills" scroll={false} style={{ color: "white" }}>
+              Scroll down
+            </Link>
             <div>
               <Icon icon={"fa-arrow-down"} data-inline="false"></Icon>
             </div>

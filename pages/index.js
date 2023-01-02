@@ -4,6 +4,7 @@ import ContactUs from "../components/ContactUs";
 import SEO from "../components/SEO";
 const Skills = dynamic(() => import("../containers/Skills"));
 const Navigation = dynamic(() => import("../components/Navigation"));
+const Education = dynamic(() => import("../containers/Education"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const GithubProfileCard = dynamic(() =>
   import("../containers/GithubProfileCard")
@@ -15,6 +16,7 @@ export default function Home({ githubProfileData }) {
       <Navigation />
       <Greetings />
       <Skills />
+      <Education />
       <ContactUs />
       <GithubProfileCard prof={githubProfileData} />
       <main></main>

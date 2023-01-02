@@ -22,7 +22,7 @@ export const greetings = {
   name: "Adrian Radice",
   title: "Hi all, I'm Adrian",
   description:
-    "I'm passionate Full Stack web developer having an experience of web / mobile applications  with .net core, Go, React.js, React-Native, Next.js and serverless apps on Azure, AWS, Firebase and Blockchain development on Ethereum, Solidity, Web3.js.",
+    "I'm passionate developer having an experience of web / mobile applications  with .net core, Go, React.js, React-Native, Next.js and serverless apps on Azure, AWS, Firebase and Blockchain development on Ethereum, Solidity, Web3.js.",
   resumeLink: "",
 };
 
@@ -197,5 +197,25 @@ export const SkillBars = [
   {
     Stack: "Programming",
     progressPercentage: "60",
+  },
+];
+
+export const educationInfo = [
+  {
+    schoolName: "UNLAM",
+    subHeader: "Systems engineering",
+    duration: "2014 - 2019",
+    desc: "Participated in the CONAISI and publish 1 papers.",
+    descBullets: [
+      "I was University professor of Operative System",
+      "Participated in the research of ETH layer 0 module orchestrator",
+    ],
+  },
+  {
+    schoolName: "Microsoft Azure az-204",
+    subHeader: "Developing solotions for Microsoft Azure",
+    duration: "2021",
+    link: "https://learn.microsoft.com/es-mx/users/adrianradice-8376/transcript/d4m80cxmqoq5ql2",
+    linkTitle: "Certification report",
   },
 ];
