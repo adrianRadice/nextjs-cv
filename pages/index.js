@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import PropTypes from "prop-types";
 import ContactUs from "../components/ContactUs";
 import SEO from "../components/SEO";
+import Experience from "../containers/Experience";
 const Skills = dynamic(() => import("../containers/Skills"));
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Education = dynamic(() => import("../containers/Education"));
@@ -17,6 +18,7 @@ export default function Home({ githubProfileData }) {
       <Greetings />
       <Skills />
       <Education />
+      <Experience />
       <ContactUs />
       <GithubProfileCard prof={githubProfileData} />
       <main></main>

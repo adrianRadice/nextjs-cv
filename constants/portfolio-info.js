@@ -219,3 +219,24 @@ export const educationInfo = [
     linkTitle: "Certification report",
   },
 ];
+
+export const experience = [
+  {
+    role: "Engineer Lead",
+    company: "BAESYSTEMS",
+    date: "March 2019 – present",
+    desc: "I'm currently responsible for leading the serverless-focused efforts. I provide thought leadership and expert knowledge to drive our enterprise strategy for serverless development. Previously, I was the Head of WW Solutions Architecture for Serverless. I led a team of Solutions Architects to implement a global strategy to help others teams adopt Serverless Computing.",
+  },
+  {
+    role: "Full Stack Developer",
+    company: "SOFRECOM",
+    date: "Apr 2020 – present",
+    desc: "I work as fullstack developer on various mobile / web App. Besides I help the company adopt Azure Devops for your projects. Some projects",
+    descBullets: [
+      "YPF Extranet: ERP web. Techs: Frontend: Angular + bootstrap , Backend: .net CORE + ODATA + EF + SQL SERVER + SAP (Integration) and deploy on Azure",
+      "Metrotel: ERP web full responsive. Techs: Frontend: Angular + bootstrap , Backend: PHP + Laravel + Eloquent + MariaDB + keycloack + Redis and deploy on AWS EKS",
+      "Techint PSR: ERP web. Techs: Frontend: React + material UI , Backend: .net CORE + Dapper + SQL SERVER + SAP (Integration) and deploy on Azure",
+      "Vittal: Telemedecine app mobile. Techs: React-Native + rnuilib, Backend: .net CORE + Dapper + SQL SERVER and deploy onpremise solution",
+    ],
+  },
+];
