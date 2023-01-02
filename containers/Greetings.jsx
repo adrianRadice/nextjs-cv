@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { greetings } from "../constants/portfolio-info";
 
 import { Button, Col, Container, Row } from "reactstrap";
 
+import { Icon } from "@iconify/react";
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
 
@@ -11,6 +12,17 @@ const Greetings = () => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
   });
+
+  const spanHand = useRef();
+  const moveHand = (e) => {
+    debugger;
+    e.target.classList.add("active");
+    e.target.addEventListener("animationend", (e) => {
+      e.target.classList.remove("active");
+    });
+    console.log(spanHand);
+  };
+
   return (
     <main>
       <div className="position-relative">
@@ -27,7 +39,14 @@ const Greetings = () => {
             <span />
           </div>
           <main class="title-container">
-            <div class="greeting-title">👋 All I'm</div>
+            <div class="greeting-title">
+              <span class="word">
+                <span onClick={(e) => moveHand(e)} ref={spanHand}>
+                  👋
+                </span>
+              </span>
+              I'm
+            </div>
 
             <section class="animation">
               <div class="first greeting-title  ">
@@ -60,7 +79,7 @@ const Greetings = () => {
                     </Button>
                   </div>
                 </Col>
-                <Col lg="6">
+                <Col lg="6  main-animation">
                   <GreetingLottie
                     animationPath={`${process.env.NEXT_PUBLIC_BASE_PATH}/lottie/greeting.json`}
                   />
@@ -68,6 +87,12 @@ const Greetings = () => {
               </Row>
             </div>
           </Container>
+          <div class="scroll-indicator">
+            <div>Scroll down</div>
+            <div>
+              <Icon icon={"fa-arrow-down"} data-inline="false"></Icon>
+            </div>
+          </div>
           {/* SVG separator */}
           <div className="separator separator-bottom separator-skew">
             <svg

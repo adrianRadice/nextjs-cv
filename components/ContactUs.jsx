@@ -33,7 +33,6 @@ export default function ContactUs() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log();
 
     emailjs
       .sendForm(
@@ -44,11 +43,9 @@ export default function ContactUs() {
       )
       .then(
         (result) => {
-          console.log(result.text);
           setAlert(successAlert);
         },
         (error) => {
-          console.log(error.text);
           setAlert(errorAlert);
         }
       );

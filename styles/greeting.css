@@ -44,15 +44,60 @@
   }
   
   @keyframes text-animation {
-    0% {margin-top: 0;}
-    10% {margin-top: 0;}
+    0% {margin-top: -0.2rem;}
+    10% {margin-top: -0.2rem;}
     20% {margin-top: -5.62rem;}
     30% {margin-top: -5.62rem;}
-    40% {margin-top: -11.24rem;}
-    60% {margin-top: -11.24rem;}
+    40% {margin-top: -11.03rem;}
+    60% {margin-top: -11.03rem;}
     70% {margin-top: -5.62rem;}
     80% {margin-top: -5.62rem;}
-    90% {margin-top: 0;}
-    100% {margin-top: 0;}
+    90% {margin-top: -0.2rem;}
+    100% {margin-top: -0.2rem;}
   }
   
+
+
+.word {
+	font-family: 'Anton', sans-serif;
+	perspective: 1000px; 
+}
+
+.word span {
+	cursor: pointer;
+	display: inline-block;
+	user-select: none;
+	line-height: .8;
+    padding-right: 5px;
+}
+
+.word span:nth-child(1).active {
+	animation: balance 0.5s ease-out;
+	transform-origin: bottom left;
+}
+
+@keyframes balance {
+	0%, 100% {
+		transform: rotate(0deg);
+	}
+	
+	30%, 60% {
+		transform: rotate(15deg);
+	}
+}
+
+
+.scroll-indicator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #e5e5e5;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .main-animation {
+    display: none;
+  }
+}
