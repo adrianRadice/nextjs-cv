@@ -10,6 +10,8 @@
     "export": "next export"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.9.1",
+    "@iconify/react": "^4.0.1",
     "@next/font": "13.1.1",
     "bootstrap": "^5.2.3",
     "eslint": "8.31.0",
@@ -18,8 +20,10 @@
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-easy-emoji": "^1.8.0",
     "react-headroom": "^3.2.1",
     "react-lottie": "^1.2.3",
+    "react-reveal": "^1.2.2",
     "reactstrap": "^9.1.5"
   }
 }
