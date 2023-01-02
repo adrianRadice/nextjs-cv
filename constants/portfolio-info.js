@@ -40,7 +40,7 @@ export const skillsSection = {
   data: [
     {
       title: "Full Stack Development",
-      lottieAnimationFile: "nextjs-cv/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Building responsive SPA & PWA in React.js or Angular"),
         emoji("⚡ Building responsive static websites using Next.js"),
@@ -94,7 +94,7 @@ export const skillsSection = {
     },
     {
       title: "Cloud Infra-Architecture",
-      lottieAnimationFile: "nextjs-cv/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
       skills: [
         emoji(
           "⚡ Experience of working on multiple cloud platforms: AWS, Azure, Firebase"
@@ -133,7 +133,7 @@ export const skillsSection = {
     },
     {
       title: "Blockchain",
-      lottieAnimationFile: "nextjs-cv/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
       skills: [
         emoji(
           "⚡ Experience in developing Smart Contract using Solidity & Ethereum"
@@ -165,7 +165,7 @@ export const skillsSection = {
 
     {
       title: "Managment project and team",
-      lottieAnimationFile: "nextjs-cv/lottie/skills/development-team.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "lottie/skills/development-team.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Experience in scrum and kanban"),
         emoji("⚡ Monitoring team and project with azure devops tools"),
