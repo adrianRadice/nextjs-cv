@@ -26,13 +26,25 @@ const Greetings = () => {
             <span />
             <span />
           </div>
+          <main class="title-container">
+            <div class="greeting-title">👋 All I'm</div>
+
+            <section class="animation">
+              <div class="first greeting-title  ">
+                <div>Adrian</div>
+              </div>
+              <div class="second greeting-title  ">
+                <div>Full Stack</div>
+              </div>
+              <div class="third greeting-title ">
+                <div>Enginier</div>
+              </div>
+            </section>
+          </main>
           <Container className="py-lg-md d-flex">
             <div className="col px-0">
               <Row>
                 <Col lg="6">
-                  <h1 className="display-3 text-white">
-                    {greetings.title + " "}
-                  </h1>
                   <p className="lead text-white">{greetings.description}</p>
                   <SocialLinks />
                   <div className="btn-wrapper my-4">
