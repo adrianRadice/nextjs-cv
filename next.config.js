@@ -12,9 +12,7 @@ const nextConfig = {
   },
   basePath: "/nextjs-cv",
   assetPrefix: "/nextjs-cv",
-  styledComponents: {
-    minify: true,
-  },
+
   experimental: { optimizeCss: true },
 };
 
