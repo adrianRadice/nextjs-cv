@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
   reactStrictMode: true,
   env: {
@@ -12,7 +11,6 @@ const nextConfig = {
   },
   basePath: "/nextjs-cv",
   assetPrefix: "/nextjs-cv",
-
   experimental: { optimizeCss: true },
 };
 
