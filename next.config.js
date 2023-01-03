@@ -11,7 +11,7 @@ const nextConfig = {
   },
   basePath: "/nextjs-cv",
   assetPrefix: "/nextjs-cv",
-  experimental: { optimizeCss: true },
+  minify: true,
 };
 
 module.exports = nextConfig;
