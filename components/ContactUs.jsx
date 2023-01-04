@@ -3,6 +3,7 @@ import classnames from "classnames";
 import React, { useRef, useState } from "react";
 import Alert from "./Alerts";
 
+import { Howl } from "howler";
 import {
   Button,
   Card,
@@ -43,9 +44,11 @@ export default function ContactUs() {
       )
       .then(
         (result) => {
+          new Howl({ src: ["nextjs-cv/audio/success.mp3"] }).play();
           setAlert(successAlert);
         },
         (error) => {
+          new Howl({ src: ["nextjs-cv/audio/error.mp3"] }).play();
           setAlert(errorAlert);
         }
       );

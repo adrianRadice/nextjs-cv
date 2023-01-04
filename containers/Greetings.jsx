@@ -2,12 +2,11 @@ import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import { greetings } from "../constants/portfolio-info";
 
-import { Button, Col, Container, Row } from "reactstrap";
-
 import { Icon } from "@iconify/react";
+import { Howl, Howler } from "howler";
+import { Button, Col, Container, Row } from "reactstrap";
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
-
 const Greetings = () => {
   useEffect(() => {
     document.documentElement.scrollTop = 0;
@@ -16,13 +15,18 @@ const Greetings = () => {
 
   const spanHand = useRef();
   const moveHand = (e) => {
-    debugger;
+    new Howl({ src: ["nextjs-cv/audio/hand.mp3"] }).play();
     e.target.classList.add("active");
     e.target.addEventListener("animationend", (e) => {
       e.target.classList.remove("active");
     });
-    console.log(spanHand);
   };
+
+  const onNav = () => {
+    new Howl({ src: ["nextjs-cv/audio/transition.mp3"] }).play();
+  };
+
+  Howler.volume(1, 0);
 
   return (
     <main>
@@ -89,7 +93,12 @@ const Greetings = () => {
             </div>
           </Container>
           <div class="scroll-indicator">
-            <Link href="#skills" scroll={false} style={{ color: "white" }}>
+            <Link
+              href="#skills"
+              scroll={false}
+              style={{ color: "white" }}
+              onClick={onNav}
+            >
               Scroll down
             </Link>
             <div>
