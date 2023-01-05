@@ -26,25 +26,11 @@ const SEO = () => (
     <meta property="twitter:description" content={seoData.description} />
     <meta property="twitter:image" content={seoData.image} />
     <meta name="robots" content="Index" />
-    <link rel="manifest" href={`${process.env.BASE_PATH}/manifest.json`} />
+    <link rel="manifest" href={`manifest.json`} />
     {/* Favicon */}
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href={`${process.env.BASE_PATH}/favicon.ico`}
-    />
-    <link
-      rel="icon"
-      type="image/ico"
-      sizes="32x32"
-      href={`${process.env.BASE_PATH}/favicon.ico`}
-    />
-    <link
-      rel="icon"
-      type="image/ico"
-      sizes="16x16"
-      href={`${process.env.BASE_PATH}/favicon.ico`}
-    />
+    <link rel="apple-touch-icon" sizes="120x120" href={`favicon.ico`} />
+    <link rel="icon" type="image/ico" sizes="32x32" href={`favicon.ico`} />
+    <link rel="icon" type="image/ico" sizes="16x16" href={`favicon.ico`} />
   </Head>
 );
 

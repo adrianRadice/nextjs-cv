@@ -85,9 +85,7 @@ const Greetings = () => {
                   </div>
                 </Col>
                 <Col lg="6  main-animation">
-                  <GreetingLottie
-                    animationPath={`${process.env.NEXT_PUBLIC_BASE_PATH}/lottie/greeting.json`}
-                  />
+                  <GreetingLottie animationPath={`/lottie/greeting.json`} />
                 </Col>
               </Row>
             </div>
