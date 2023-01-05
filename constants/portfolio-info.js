@@ -6,7 +6,7 @@ export const seoData = {
     "A passionate Full Stack Web / Mobile Developer and Blockchain Developer.",
   author: "Adrian Radice",
   image: "https://avatars.githubusercontent.com/u/31006922",
-  url: "https://adrianradice.github.io/nextjs-cv",
+  url: "https://adrianradice.github.io",
   keywords: [
     "Radice",
     "Radice Adrian",
@@ -27,7 +27,7 @@ export const greetings = {
 };
 
 export const socialLinks = {
-  url: "https://adrianradice.github.io/nextjs-cv",
+  url: "https://adrianradice.github.io",
   linkedin: "https://www.linkedin.com/in/adrian-radice",
   github: "https://github.com/adrianRadice",
   instagram: "https://www.instagram.com/adrian.radice",

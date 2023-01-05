@@ -44,11 +44,11 @@ export default function ContactUs() {
       )
       .then(
         (result) => {
-          new Howl({ src: ["nextjs-cv/audio/success.mp3"] }).play();
+          new Howl({ src: ["audio/success.mp3"] }).play();
           setAlert(successAlert);
         },
         (error) => {
-          new Howl({ src: ["nextjs-cv/audio/error.mp3"] }).play();
+          new Howl({ src: ["audio/error.mp3"] }).play();
           setAlert(errorAlert);
         }
       );

@@ -9,8 +9,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/nextjs-cv",
-  assetPrefix: "/nextjs-cv",
+  basePath: "/",
+  assetPrefix: "/",
   minify: true,
 };
 

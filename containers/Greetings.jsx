@@ -15,7 +15,7 @@ const Greetings = () => {
 
   const spanHand = useRef();
   const moveHand = (e) => {
-    new Howl({ src: ["nextjs-cv/audio/hand.mp3"] }).play();
+    new Howl({ src: ["audio/hand.mp3"] }).play();
     e.target.classList.add("active");
     e.target.addEventListener("animationend", (e) => {
       e.target.classList.remove("active");
@@ -23,7 +23,7 @@ const Greetings = () => {
   };
 
   const onNav = () => {
-    new Howl({ src: ["nextjs-cv/audio/transition.mp3"] }).play();
+    new Howl({ src: ["audio/transition.mp3"] }).play();
   };
 
   Howler.volume(1, 0);
