@@ -15,7 +15,9 @@ const Greetings = () => {
 
   const spanHand = useRef();
   const moveHand = (e) => {
-    new Howl({ src: ["audio/hand.mp3"] }).play();
+    new Howl({
+      src: [`${process.env.NEXT_PUBLIC_BASE_PATH}/audio/hand.mp3`],
+    }).play();
     e.target.classList.add("active");
     e.target.addEventListener("animationend", (e) => {
       e.target.classList.remove("active");
@@ -23,7 +25,9 @@ const Greetings = () => {
   };
 
   const onNav = () => {
-    new Howl({ src: ["audio/transition.mp3"] }).play();
+    new Howl({
+      src: [`${process.env.NEXT_PUBLIC_BASE_PATH}/audio/transition.mp3`],
+    }).play();
   };
 
   Howler.volume(1, 0);
@@ -85,7 +89,9 @@ const Greetings = () => {
                   </div>
                 </Col>
                 <Col lg="6  main-animation">
-                  <GreetingLottie animationPath={`/lottie/greeting.json`} />
+                  <GreetingLottie
+                    animationPath={`${process.env.NEXT_PUBLIC_BASE_PATH}/lottie/greeting.json`}
+                  />
                 </Col>
               </Row>
             </div>

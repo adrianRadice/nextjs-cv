@@ -44,11 +44,15 @@ export default function ContactUs() {
       )
       .then(
         (result) => {
-          new Howl({ src: ["audio/success.mp3"] }).play();
+          new Howl({
+            src: [`${process.env.NEXT_PUBLIC_BASE_PATH}/audio/success.mp3`],
+          }).play();
           setAlert(successAlert);
         },
         (error) => {
-          new Howl({ src: ["audio/error.mp3"] }).play();
+          new Howl({
+            src: [`${process.env.NEXT_PUBLIC_BASE_PATH}/audio/error.mp3`],
+          }).play();
           setAlert(errorAlert);
         }
       );
