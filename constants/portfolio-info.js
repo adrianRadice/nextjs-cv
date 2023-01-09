@@ -23,7 +23,8 @@ export const greetings = {
   title: "Hi all, I'm Adrian",
   description:
     "I'm passionate developer having an experience of web / mobile applications  with .net core, Go, React.js, React-Native, Next.js and serverless apps on Azure, AWS, Firebase and Blockchain development on Ethereum, Solidity, Web3.js.",
-  resumeLink: "",
+  resumeLink:
+    "https://drive.google.com/file/d/12_IS4Bd-VGF6B7CPqCbhknKmXT9HnYEJ/view?usp=sharing",
 };
 
 export const socialLinks = {
