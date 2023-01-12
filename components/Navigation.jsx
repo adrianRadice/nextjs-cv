@@ -33,7 +33,7 @@ const Navigation = () => {
           expand="lg"
           id="navbar-main"
         >
-          <NavbarBrand href="/" className="mr-lg-5">
+          <NavbarBrand href="/nextjs-cv" className="mr-lg-5">
             <h2 className="text-white mb-0" id="nav-title">
               {greetings.name}
             </h2>
