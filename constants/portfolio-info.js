@@ -24,7 +24,7 @@ export const greetings = {
   description:
     "I'm passionate developer having an experience of web / mobile applications  with .net core, Go, React.js, React-Native, Next.js and serverless apps on Azure, AWS, Firebase and Blockchain development on Ethereum, Solidity, Web3.js.",
   resumeLink:
-    "https://drive.google.com/file/d/1o6RG6b8Uj208N2gGRcxGM8cunKQ7VW-C/view?usp=share_link",
+    "https://drive.google.com/file/d/1pWWbCcFeAIwQmUU6bKyXlnT73iuqmqsU/view?usp=sharing",
 };
 
 export const socialLinks = {
