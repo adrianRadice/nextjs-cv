@@ -22,7 +22,7 @@ export const greetings = {
   name: "Adrian Radice",
   title: "Hi all, I'm Adrian",
   description:
-    "I'm passionate developer having an experience of web / mobile applications  with .net core, Go, React.js, React-Native, Next.js and serverless apps on Azure, AWS, Firebase and Blockchain development on Ethereum, Solidity, Web3.js.",
+    "I'm passionate developer having an experience of web / mobile applications  with .NET, Go, React.js, React-Native, Next.js and serverless apps on Azure, AWS, Firebase and Blockchain development on Ethereum, Solidity, Web3.js.",
   resumeLink:
     "https://drive.google.com/file/d/17TxlB73xBF9qmOZkt5BmJ504b4O9Tl3O/view?usp=sharing",
 };
@@ -46,7 +46,7 @@ export const skillsSection = {
         emoji("⚡ Building responsive SPA & PWA in React.js or Angular"),
         emoji("⚡ Building responsive static websites using Next.js"),
         emoji(
-          "⚡ Building RESTful APIs in .net core, nodejs express or Go Gin"
+          "⚡ Building RESTful APIs in .NET, nodejs express or Go Gin"
         ),
         emoji("⚡ Building Mobile App using React-Native"),
       ],
@@ -76,7 +76,7 @@ export const skillsSection = {
           fontAwesomeClassname: "vscode-icons:file-type-light-next",
         },
         {
-          skillName: "net Core",
+          skillName: "NET",
           fontAwesomeClassname: "logos:c-sharp",
         },
         {
@@ -223,7 +223,8 @@ export const educationInfo = [
 
 export const experience = [
   {
-    company: "VaisTech",
+    role: "vaistech.io",
+    company: "Vaistech",
     date: "Ago 2023 – present",
     desc: "Currently, I am part of a team focused on platform transformation in the InsurTech domain. My role encompasses Front-end development, Site Reliability Engineering (SRE) management, and DevOps practices implementation. Additionally, I research and enhance user experience through the integration of artificial intelligence into the business.",
     descBullets: ["Creation of embedded and SaaS solutions using Angular and .NET to expose the core of our product, thus revolutionizing insurance marketing.",
@@ -234,14 +235,15 @@ export const experience = [
       "Design and development of a service for classifying goods according to the NMC, optimizing the offered insurance and reducing time to market. I utilized Go for development, Gemini and Elasticsearch as pre-trainers for the specific recommendation model, and enhanced its exposure and response speed through a cache layer, complemented with Redis and MemGraph."],
   },
   {
+    role: "sofrecom.com",
     company: "Sofrecom",
     date: "Ago 2023 – present",
     desc: "I work as fullstack developer on various mobile / web App. Besides I help the company adopt Azure Devops for your projects. Some projects",
     descBullets: [
-      "YPF Extranet: ERP web. Techs: Frontend: Angular + bootstrap , Backend: .net CORE + ODATA + EF + SQL SERVER + SAP (Integration) and deploy on Azure",
+      "YPF Extranet: ERP web. Techs: Frontend: Angular + bootstrap , Backend: .NET + ODATA + EF + SQL SERVER + SAP (Integration) and deploy on Azure",
       "Metrotel: ERP web full responsive. Techs: Frontend: Angular + bootstrap , Backend: PHP + Laravel + Eloquent + MariaDB + keycloack + Redis and deploy on AWS EKS",
-      "Techint PSR: ERP web. Techs: Frontend: React + material UI , Backend: .net CORE + Dapper + SQL SERVER + SAP (Integration) and deploy on Azure",
-      "Vittal: Telemedecine app mobile. Techs: React-Native + rnuilib, Backend: .net CORE + Dapper + SQL SERVER and deploy onpremise solution",
+      "Techint PSR: ERP web. Techs: Frontend: React + material UI , Backend: .NET  + Dapper + SQL SERVER + SAP (Integration) and deploy on Azure",
+      "Vittal: Telemedecine app mobile. Techs: React-Native + rnuilib, Backend: .NET + Dapper + SQL SERVER and deploy onpremise solution",
     ],
   },
 ];
