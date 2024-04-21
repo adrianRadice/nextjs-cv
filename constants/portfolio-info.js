@@ -223,15 +223,19 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Engineer Lead",
-    company: "BAESYSTEMS",
-    date: "March 2019 – present",
-    desc: "I'm currently responsible for leading the serverless-focused efforts. I provide thought leadership and expert knowledge to drive our enterprise strategy for serverless development. Previously, I was the Head of WW Solutions Architecture for Serverless. I led a team of Solutions Architects to implement a global strategy to help others teams adopt Serverless Computing.",
+    company: "VaisTech",
+    date: "Ago 2023 – present",
+    desc: "Currently, I am part of a team focused on platform transformation in the InsurTech domain. My role encompasses Front-end development, Site Reliability Engineering (SRE) management, and DevOps practices implementation. Additionally, I research and enhance user experience through the integration of artificial intelligence into the business.",
+    descBullets: ["Creation of embedded and SaaS solutions using Angular and .NET to expose the core of our product, thus revolutionizing insurance marketing.",
+      "Development of the institutional and testing site using Astro alongside PReact.",
+      "Establishment of the CI/CD pipeline using Azure DevOps.",
+      "Guiding UX and UI decisions for the solutions.", "Leading the team in software development process with ISO 27001 certification mindset.",
+      "Development in Go of an L7 to incorporate specific authentication and authorization requirements of IDPs.", 
+      "Design and development of a service for classifying goods according to the NMC, optimizing the offered insurance and reducing time to market. I utilized Go for development, Gemini and Elasticsearch as pre-trainers for the specific recommendation model, and enhanced its exposure and response speed through a cache layer, complemented with Redis and MemGraph."],
   },
   {
-    role: "Full Stack Developer",
-    company: "SOFRECOM",
-    date: "Apr 2020 – present",
+    company: "Sofrecom",
+    date: "Ago 2023 – present",
     desc: "I work as fullstack developer on various mobile / web App. Besides I help the company adopt Azure Devops for your projects. Some projects",
     descBullets: [
       "YPF Extranet: ERP web. Techs: Frontend: Angular + bootstrap , Backend: .net CORE + ODATA + EF + SQL SERVER + SAP (Integration) and deploy on Azure",
